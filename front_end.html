@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Reg Form</title>
+</head>
+<body>
+    <!-- <img src="C:\Users\AJMAL\Downloads\background img.jpg" alt="background"> -->
+    <!-- <img src="image/background img.jpg" alt="background"> -->
+    
+    <link rel="stylesheet" href="front_end.css">
+    <form action="post">
+        <div class="form_header">
+            <h1>Student Registration Form</h1>
+        </div>
+        <section class="form_body">
+<div class="details" >
+        <label for="name">NAME :   </label>
+        <input type="text" name="text" size="30"><br><br> 
+
+            <label for="Rollno">RO_NO : </label>
+        <input type="text" name="text" size="30"><br><br>
+
+            <label for="age">AGE : </label>
+        <input type="text" name="text" size="30"><br><br>
+
+        <label for="DOB">DOB : </label>
+        <input type="date" name="text" size="30"> <br><br><br>
+
+
+</div>
+
+<div class="nationality">
+    <h2>Select Your Nationality</h2> <br><br>
+  <select name="nationality" id="nation" class="select">
+    <option value="select">Indian</option>
+    <option value="select">America</option>
+    <option value="select">China</option>
+    <option value="select">Australia</option>
+    <option value="select">Brazil</option>
+    <option value="select">Argentina</option>
+    <option value="select">Portugal</option>
+  </select>
+</div>
+
+<div class="gender">
+    <h2>Select Your Gender</h2>
+
+    <label for="gender_m">MALE</label>
+    <input type="radio" name="GENDER"><br>
+
+    <label for="gender_f">FEMALE</label>
+    <input type="radio" name="GENDER"><br>
+
+    <label for="gender_t">TRANSGENDER</label>
+    <input type="radio" name="GENDER">
+</div>
+
+
+<div class="course">
+    <h2>Select the Languages that you known</h2>
+
+    <label for="Java">Java</label>
+    <input type="checkbox" name="course"><br>
+
+    
+    <label for="Python">Python</label>
+    <input type="checkbox" name="course"><br>
+
+    
+    <label for="Java Script">Java Script</label>
+    <input type="checkbox" name="course"><br>
+
+    
+    <label for="c++">c++</label>
+    <input type="checkbox" name="course"><br><br><br><br>
+</div>
+
+
+    <div class="feedback">
+        <label for="feedback">Please enter your feedback </label><br><br>
+        <textarea name="textarea" id="txtarea" cols="80" rows="5"> </textarea>
+    </div>
+
+
+    <div class="submit">
+<input type="submit" name="submit" id="submit" value="submit">
+</div>
+</section>
+    </form>
+</body>
+</html>
